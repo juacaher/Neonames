@@ -1,7 +1,26 @@
 "# Neonames" 
 ## Introduction
 
-The Geonames is a page
+Timezone
+Webservice Type : REST
+Url : api.geonames.org/timezone?
+Parameters : lat,lng, radius (buffer in km for closest timezone in coastal areas),lang (for countryName), date (date for sunrise/sunset);
+Result : the timezone at the lat/lng with gmt offset (1. January) and dst offset (1. July)
+Example http://api.geonames.org/timezone?lat=47.01&lng=10.2&username=demo
+
+This service is also available in JSON format : http://api.geonames.org/timezoneJSON?lat=47.01&lng=10.2&username=demo
+
+
+Element:
+countryCode: ISO countrycode
+countryName: name (language can be set with param lang)
+timezoneId: name of the timezone (according to olson), this information is sufficient to work with the timezone and defines DST rules, consult the documentation of your development environment. Many programming environments include functions based on the olson timezoneId (example java TimeZone)
+time: the local current time
+sunset: sunset local time (date)
+sunrise: sunrise local time (date)
+rawOffset: the amount of time in hours to add to UTC to get standard time in this time zone. Because this value is not affected by daylight saving time, it is called raw offset.
+gmtOffset: offset to GMT at 1. January (deprecated)
+dstOffset: offset to GMT at 1. July (deprecated)
 
 ## Pre requirements
 - Java version 1.8 update 151 or higher and JDK(environment variables configured).
