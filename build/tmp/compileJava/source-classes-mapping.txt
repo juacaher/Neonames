@@ -1,0 +1,24 @@
+co/com/appgate/certification/geonames/questions/ValidateCountryCode.java
+ co.com.appgate.certification.geonames.questions.ValidateCountryCode
+co/com/appgate/certification/geonames/utils/Headers.java
+ co.com.appgate.certification.geonames.utils.Headers
+co/com/appgate/certification/geonames/models/ModelGeoNames.java
+ co.com.appgate.certification.geonames.models.ModelGeoNames
+co/com/appgate/certification/geonames/tasks/ConsultCountryName.java
+ co.com.appgate.certification.geonames.tasks.ConsultCountryName
+co/com/appgate/certification/geonames/models/InvalidUser.java
+ co.com.appgate.certification.geonames.models.InvalidUser
+co/com/appgate/certification/geonames/models/ModelDataInformation.java
+ co.com.appgate.certification.geonames.models.ModelDataInformation
+co/com/appgate/certification/geonames/questions/ValidateCountryName.java
+ co.com.appgate.certification.geonames.questions.ValidateCountryName
+co/com/appgate/certification/geonames/models/Status.java
+ co.com.appgate.certification.geonames.models.Status
+co/com/appgate/certification/geonames/utils/Constants.java
+ co.com.appgate.certification.geonames.utils.Constants
+co/com/appgate/certification/geonames/tasks/ConsultCountryCode.java
+ co.com.appgate.certification.geonames.tasks.ConsultCountryCode
+co/com/appgate/certification/geonames/questions/ValidateInvalidUser.java
+ co.com.appgate.certification.geonames.questions.ValidateInvalidUser
+co/com/appgate/certification/geonames/tasks/ConsultInvalidUser.java
+ co.com.appgate.certification.geonames.tasks.ConsultInvalidUser
