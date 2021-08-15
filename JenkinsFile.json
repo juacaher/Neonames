@@ -1,0 +1,8 @@
+pipeline {
+	     stage('gradle excecution'){
+			 steps{
+				 sh 'D:'
+				 sh gradlew clean test aggregate -i'
+			 }
+		 }
+}
