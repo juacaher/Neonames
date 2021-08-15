@@ -90,8 +90,9 @@ Automation was  developed with:
 
 ##Command for execution
 The project can be executed from the console with the following command:
-- gradle clean test aggregate
+-clean test aggregate
 
 ##Author
 **JUAN CAMILO HERNANDEZ PULGARIN** -[camilo.bk.2010@gmail.com]
+
  
